@@ -4,7 +4,6 @@ version = "0.1.0"
 edition = "2021"
 description = "Just a very fast protocol in development"
 license = "MIT"
-license-file = "LICENSE"
 documentation = "https://docs.rs/vfp"
 repository = "https://github.com/neodyland/vfp"
 
