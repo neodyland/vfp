@@ -1,0 +1,16 @@
+[package]
+name = "vfp-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Just a very fast protocol in development"
+license = "MIT"
+license-file = "LICENSE"
+documentation = "https://docs.rs/vfp"
+repository = "https://github.com/neodyland/vfp"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.1.6", features = ["derive"] }
+tokio = { version = "1.25.0", features = ["full"] }
+vfp = { version = "0.1.0" }
