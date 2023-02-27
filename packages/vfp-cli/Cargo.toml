@@ -13,3 +13,6 @@ repository = "https://github.com/neodyland/vfp"
 clap = { version = "4.1.6", features = ["derive"] }
 tokio = { version = "1.25.0", features = ["full"] }
 vfp = { version = "0.1.0" }
+
+[bin]
+vfp = "src/main.rs"
